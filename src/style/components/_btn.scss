@@ -1,0 +1,31 @@
+.big-btn {
+    background: #593393;
+    border: none;
+    border-bottom: .6rem solid darken($color: $purple, $amount: 10%);
+    color: #fff;
+    font-weight: bold;
+    font-size: $l-size;
+    margin-bottom: $xl-size;
+    padding: 2.4rem;
+    width: 100%;
+}
+
+.big-btn :disabled{
+    background: #593393;
+}
+
+
+.btn {
+   background: $purple;
+   border: none;
+   color: #fff;
+   font-weight: 500;
+   padding: $m-size;
+   border-bottom: .3rem solid darken($color: $purple, $amount: 10%); 
+}
+.btn--link{
+    background: none;
+    border: none;
+    color: $dark-white;
+    padding: 0;
+}

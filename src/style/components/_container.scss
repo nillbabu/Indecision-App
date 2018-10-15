@@ -1,0 +1,7 @@
+@import '../base/_setting.scss';
+.container {
+    max-width: 60rem;
+    margin: 0 auto;
+    padding: $m-size $m-size;
+    // background: $off-black;
+}

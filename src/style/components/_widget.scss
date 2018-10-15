@@ -1,0 +1,22 @@
+.widget {
+    background: $light-blue;
+    margin-bottom: $xl-size;
+}
+.widget-header{
+    background: $blue;
+    color: $dark-white;
+    padding: $m-size;
+    display: flex;
+    justify-content: space-between;
+    h3 {
+        margin: 0;
+    }
+}
+.forP{
+    text-align: center;
+    color: $dark-white;
+    text-transform: uppercase;
+    // border-bottom: 1px solid lighten($color: $light-blue, $amount: 10%);
+    padding: 1rem 0 0 0;
+    font-weight: bold;
+}
